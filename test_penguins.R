@@ -1,0 +1,2 @@
+library(palmerpenguins)
+summary(penguins)
