@@ -83,7 +83,7 @@ ht2
 #Somatic mutations
 
 library(TCGAbiolinks)
-
+#data downloaded from  https://drive.google.com/file/d/1a_4mSFyDGQP_hXGGc6HHzluELv6C1gZr/view
 maf <- readRDS('/home/marichka/Downloads/data')
 
 plotmafSummary(maf = maf, rmOutlier = TRUE, 
